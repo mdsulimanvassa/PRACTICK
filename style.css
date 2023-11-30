@@ -10,6 +10,10 @@ body{
 .half-width img{
     width: 100%;
 }
+.half-width img:hover{
+    transform: scale(1.2);
+    transition: transform 2s;
+}
 .s{
 margin-top: 80px;
 }
